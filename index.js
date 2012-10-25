@@ -20,13 +20,15 @@ Davis = function (config) {
   return app
 };
 
+module.exports = Davis; //!Compenent Support
+
 /**
  * Stores the DOM library that Davis will use.  Can be overriden to use libraries other than jQuery.
  */
 if (window.jQuery) {
   Davis.$ = jQuery
 } else {
-  Davis.$ = null
+  Davis.$ = require('jquery'); //!Compenent Support
 };
 
 /**
