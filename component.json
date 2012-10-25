@@ -8,5 +8,8 @@
     "routing",
 	"sinatra"
   ],
+	"dependencies": {
+    "component/jquery": "*"
+  },
   "scripts": ["index.js"]
 }
