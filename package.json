@@ -1,0 +1,13 @@
+{
+  "name": "btknorr-davis.js",
+  "description": "Davis.js is a small JavaScript library using HTML5 history.pushState that allows simple Sinatra style routing for your JavaScript apps.",
+  "version": "0.9.4",
+  "keywords": [
+    "routing",
+    "sinatra",
+    "history api"
+  ],
+  "dependencies": {
+    "component-jquery": "git://github.com/npmcomponent/component-jquery.git"
+  }
+}

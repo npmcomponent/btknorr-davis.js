@@ -28,7 +28,7 @@ module.exports = Davis; //!Compenent Support
 if (window.jQuery) {
   Davis.$ = jQuery
 } else {
-  Davis.$ = require('jquery'); //!Compenent Support
+  Davis.$ = require('component-jquery'); //!Compenent Support
 };
 
 /**
